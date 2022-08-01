@@ -6,7 +6,37 @@
 }
 
 .card {
+    background-color: #d63384;
     margin: 0 auto; /* Added */
     float: none; /* Added */
     margin-bottom: 10px; /* Added */
+}
+
+.card-header {
+    align-items: center;
+}
+
+.body {
+    background-color: palevioletred;
+    height:100%;
+    padding: 1%;
+    margin: 1%;
+}
+
+.jumbotron {
+    margin-bottom: 0px;
+    background-position: 0% 25%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: black;
+    border: 7px;
+    border-color: palevioletred;
+    border-style: solid;
+    }
+
+.hr {
+    color:#d63384;
+    border-top: 10px solid;
+    margin: 0%;
+    padding: 0%;
 }
