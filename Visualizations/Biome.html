@@ -14,10 +14,10 @@
 
 <body class="body">
 
-    <nav class="navbar navbar-expand-sm bg-light navbar-light justify-content-end">
+    <nav class="navbar navbar-expand-sm bg-light navbar-light justify-content-end rounded">
         <a class="navbar-brand" href="../index.html">
             <img src="../Assets/Images/My_Face.png" class="rounded" width="40" height="55" class="d-inline-block align-top" alt="">
-                <i>Diandra McNeill</i>
+                <strong><i>Diandra McNeill</i></strong>
         </a>
         <button class="btn ml-auto mr-1">
         </button>
@@ -51,13 +51,14 @@
     <br>
 
     <div class="container">
-        <header class="header" class="rounded">
+        <header class="header rounded">
             <div class="container">
-                <div class="jumbotron jumbotron-fluid">
+                <div class="jumbotron">
                     <div class="row">
                         <div class="col-md-12">
                             <div class="text-center">
-                                <h1>Digging Into the Belly Button Biome:</h1>
+                                <h3><u>Digging Into the Belly Button Biome:</u></h3>
+                                <br>
                                 <p><i>The Look Into A Person's Post-Fetal-Feeding Tube</i></p>
                             </div>
                         </div>
@@ -71,23 +72,32 @@
     <br>
 
     <div class="container">
-        <header class="header" class="rounded">
+        <header class="header rounded">
             <div class="container">
-                <div class="jumbotron jumbotron-fluid">
+                <div class="jumbotron">
                     <div class="row">
                         <div class="col-md-12">
                             <div class="text-center">
-                                <h3><i>The Premise:</i></h3>
-                                <h5><i>To Build A Dashboard</i></h5>
+                                <h3><u>The Premise:</u></h3>
                                 <p>
-                                    Using D3.js to obtain information from a json page,
+                                    Using a json file that contains the data of various patients and the bacteria results from their belly button samples, I've 
+                                    created a dynamic and interactive dashboard that displays the previously mentioned data. By choosing the patient number from 
+                                    the dropdown menu, you can change the information to reflect the findings on the newly selected patient. From the Top 10 Bacteria 
+                                    found in their bellybutton, to the number of times they wash/shower per week, it's all there.
+                                </p>
+                                <p>
+                                    <i>Fun Fact: The types of bacteria found in your bellybutton aren't affected by the number of times you wash per week!</i>
                                 </p>
                                 <a href="https://dmcneill0711.github.io/Digging-Into-The-Belly-Button-Biome/">
-                                    <p>Click Here To Interact With Dashboard</p>
+                                    <p>
+                                        <i>Click Here To Interact With Dashboard</i>
+                                    </p>
                                 </a>
                                 <a href="https://github.com/dmcneill0711/Digging-Into-The-Belly-Button-Biome">
-                                    <p>Click Here To Go To GitHub</p>
-                                    <img class="img-thumbnail" src="../Assets/Images/github.png" alt="GitHub" style="width:50px;height: 50px;px;"></a>
+                                    <p>
+                                        <i>Click Here To Go To GitHub</i>
+                                    </p>
+                                    <img class="img-thumbnail" src="../Assets/Images/github.png" alt="GitHub" style="width:50px;height:50px;"></a>
                             </div>
                         </div>
                     </div>
@@ -126,7 +136,7 @@
                                 <li class="text-center">
                                     D3.js
                                 </li>
-                                <p class="text-center"><i> A javascript library used to load and manipulate the data from the json</i></p>
+                                <p class="text-center"><i> A javascript library used to load in and manipulate the data from the json</i></p>
                                 <li class="text-center">
                                     Plotly.js
                                 </li>
@@ -148,11 +158,11 @@
                         </div>
                         <div class="card-body">
                             <p class="text-center">
-                                <img class="img-thumbnail" src="../Assets/Images/dashboard.png" alt="Dashboard" style="width:400px;height: 225px;px;">
+                                <img class="img-thumbnail" src="../Assets/Images/dashboard.png" alt="Dashboard" style="width:400px;height:225px;">
                             </p>
                                 <hr>
                             <p class="text-center"> 
-                                <img class="img-thumbnail" src="../Assets/Images/dash_bubble.png" alt="Dashboard" style="width: 400px;height: 175px;px;">
+                                <img class="img-thumbnail" src="../Assets/Images/dash_bubble.png" alt="Dashboard" style="width: 400px;height:175px;">
                             </p>
                         </div>
                     </div>
@@ -160,6 +170,45 @@
             </div>
         </section>
     </div>
+    <br>
+    <hr class="hr">
+
+    <footer>
+        <div class="container">
+            <div class="row py-4">
+                <div class="col-lg-6">
+                    <a class="navbar-brand" href="../index.html">
+                        <h2 class="h4 pb-lg-3 text-light light-300">Diandra McNeill</h2>
+                    </a>
+                    <ul class="light-300">
+                        <li class="list-inline-item m-0">
+                            <a href="https://www.linkedin.com/in/diandra-mcneill-765410233/">
+                                <img class="img-thumbnail" src="../Assets/Images/linkedin.png" alt="LinkedIn" style="width:50px;height:50px;">
+                            </a>
+                        </li>
+                        <li class="list-inline-item m-0">
+                            <a href="https://github.com/dmcneill0711/">
+                                <img class="img-thumbnail" src="../Assets/Images/github.png" alt="GitHub" style="width:50px;height: 50px;">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-6">
+                    <a class="navbar-brand" href="../index.html">
+                        <h2 class="h4 pb-lg-3 text-light light-300">My Works</h2>
+                    </a>
+                    <ul class="list-unstyled text-light light-300">
+                        <li class="pb-2">
+                            <a class="text-decoration-none text-light py-1" href="../Visualizations/Guns.html">Gunning Down The Children</a>
+                        </li>
+                        <li class="pb-2">
+                            <a class="text-decoration-none text-light py-1" href="../Visualizations/Final.html">The Strokes</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
