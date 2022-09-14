@@ -1,8 +1,8 @@
-# About_Me
+# Me, My Page, and I
 <h4><b>My Projects Page:</b></h4>
 <p>This is my personal page that outlines my work experiences and all of the details from my past projects. From the topic selection to what programs were used in each project, it is all there.</p>
 
-<a href="https://dmcneill0711.github.io/About_Me/">Click Here</a> to visit my site.
+<a href="https://dmcneill0711.github.io/Me_My_Page_and_I/">Click Here</a> to visit my site.
 <br>
 <hr>
 <h4>Languages Used:</h4>
