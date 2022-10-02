@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
 
-<body class="body">
+<body>
 
     <nav class="navbar navbar-expand-sm bg-light navbar-light justify-content-end rounded">
         <a class="navbar-brand" href="../index.html">
@@ -42,146 +42,145 @@
                         The Strokes
                     </a>
                 </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="../Visualizations/Contact.html">
+                        Contact Me!
+                    </a>
+                </li>
             </ul>
         </div>
     </nav>
 
-    <br>
     <hr class="hr">
-    <br>
 
-    <body class="body">
+    <div class="contact1">
         <div class="container">
-            <header class="header rounded">
-                <div class="container">
-                    <div class="jumbotron">
-                        <div class="row">
-                            <div class="col-md-12">
-                                <div class="text-center">
-                                <h3><u>Gunning Down The Children:</u></h3>
+            <div class="jumbotron">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="text-center">
+                            <h3><u>Gunning Down The Children:</u></h3>
+                            <br>
+                            <p><i>A Study of Gun Violence</i></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="contact1">
+        <div class="container">
+            <div class="jumbotron">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="text-center">
+                            <h3><u>The Premise:</u></h3>
+                            <p>
+                                Out of the ever increasing number of mass shootings happening the United States, how many of those actually affect children?
+                            </p>
+                            <p>
+                                Gathering the most recent CSV from the <a href="https://www.gunviolencearchive.org/query/a1dbece6-1434-49fe-88f5-3c8316431f0c">
+                                Gun Violence Archives (GVA)</a> and the most recent table from the Wikipedia's <a href="https://en.wikipedia.org/wiki/List_of_mass_shootings_in_the_United_States_in_2022">
+                                Mass Shootings in 2022</a> page, the data was cleaned up and put into a database using SQL-Alchemy. It was then analyzed to see how 
+                                children really are affected. Included in the GitHub is the database schema to build to the two tables needed to house the data
+                                from the two resources. 
+                            </p>
+                            <p>
+                                After the project was completed, I wanted to streamline the information gathering process so the that notebook, when ran, would 
+                                update the CSV to the most recent one from the GVA site. In order to do this, I edited the code to include a web scraping element. 
+                                Using Splinter with Selenium, the page now navigates and clicks through the website until it reaches the "Download CSV" button, and
+                                replaces the old CSV with the newer one. 
+                            </p>
+                            <p>                                    Based on our findings, we concluded that children are rarely affected by mass shootings, and instead, are mostly the victims of one-on-one
+                                interactions and accidents caused by the lack of safety measures in place that prevent the easy access to these dangerous firearms.
+                            </p>
+                            <a href="https://github.com/dmcneill0711/Mass-Shootings-and-Children">
+                                <p>
+                                    <i>Click Here To Go To GitHub</i>
+                                </p>
+                                <img class="img-thumbnail" src="../Assets/Images/github.png" alt="GitHub" style="width:50px;height:50px;">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="contact1">
+        <div class="container">
+            <div class="jumbotron">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="card">
+                            <div class="card-header">
+                                <p class="text-center">
+                                    <b><u>Languages and Programs Used:</u></b>
+                                </p>
+                            </div>
+                            <div class="card-body">
+                                <p class="text-center">
+                                    <li class="text-center">
+                                        Python
+                                    </li>
+                                    <p class="text-center"><i>Language used in the notebook</i></p>
+                                    <li class="text-center">
+                                        SQL 
+                                    </li>
+                                    <p class="text-center"><i>Language used to create the tables and help create the queries</i></p>
+                                    <li class="text-center">
+                                        Postgres
+                                    </li>
+                                    <p class="text-center"><i>The database system</i></p>
+                                    <li class="text-center">
+                                        Splinter
+                                    </li>
+                                    <p class="text-center"><i>Python package used for scraping</i></p>
+                                    <li class="text-center">
+                                        SQL-Alchemy
+                                    </li>
+                                    <p class="text-center"><i>The link between Python and SQL that allows for database querying in Python</i></p>
+                                </p>
                                 <br>
-                                <p><i>A Study of Gun Violence</i></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="card">
+                            <div class="card-header">
+                                <p class="text-center">
+                                    <b><u>Screenshots:</u></b>
+                                </p>
+                            </div>
+                            <div class="card-body">
+                                <p class="text-center">
+                                    <img class="img-thumbnail" src="../Assets/Images/gun.png" alt="Dashboard" style="width: 400px;height:175px;">
+                                </p>
+                                <p class="text-center">
+                                    <img class="img-thumbnail" src="../Assets/Images/sqlalchemy.png" alt="Dashboard" style="width: 400px;height:175px;">
+                                </p>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </header>
+        </div>
     </div>
 
-    <hr class="hr">
-    <br>
-
-    <body class="body">
-        <div class="container">
-            <header class="header rounded">
-                <div class="container">
-                    <div class="jumbotron">
-                        <div class="row">
-                            <div class="col-md-12">
-                            <div class="text-center">
-                                <h3><u>The Premise:</u></h3>
-                                <p>
-                                    Out of the ever increasing number of mass shootings happening the United States, how many of those actually affect children?
-                                </p>
-                                <p>
-                                    Gathering the most recent CSV from the <a href="https://www.gunviolencearchive.org/query/a1dbece6-1434-49fe-88f5-3c8316431f0c">
-                                    Gun Violence Archives (GVA)</a> and the most recent table from the Wikipedia's <a href="https://en.wikipedia.org/wiki/List_of_mass_shootings_in_the_United_States_in_2022">
-                                    Mass Shootings in 2022</a> page, the data was cleaned up and put into a database using SQL-Alchemy. It was then analyzed to see how 
-                                    children really are affected. Included in the GitHub is the database schema to build to the two tables needed to house the data
-                                    from the two resources. 
-                                </p>
-                                <p>
-                                    After the project was completed, I wanted to streamline the information gathering process so the that notebook, when ran, would 
-                                    update the CSV to the most recent one from the GVA site. In order to do this, I edited the code to include a web scraping element. 
-                                    Using Splinter with Selenium, the page now navigates and clicks through the website until it reaches the "Download CSV" button, and
-                                    replaces the old CSV with the newer one. 
-                                </p>
-                                <p>
-                                    Based on our findings, we concluded that children are rarely affected by mass shootings, and instead, are mostly the victims of one-on-one
-                                    interactions and accidents caused by the lack of safety measures in place that prevent the easy access to these dangerous firearms.
-                                </p>
-                                <a href="https://github.com/dmcneill0711/Mass-Shootings-and-Children">
-                                    <p>
-                                        <i>Click Here To Go To GitHub</i>
-                                    </p>
-                                    <img class="img-thumbnail" src="../Assets/Images/github.png" alt="GitHub" style="width:50px;height:50px;"></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </header>
-    </div>
-
-    <hr class="hr">
-    <br>
-
-    <div class="container">
-        <section>
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="card">
-                        <div class="card-header">
-                            <p class="text-center">
-                                <b><u>Languages and Programs Used:</u></b>
-                            </p>
-                        </div>
-                        <div class="card-body">
-                            <p class="text-center">
-                                <li class="text-center">
-                                    Python
-                                </li>
-                                <p class="text-center"><i>Language used in the notebook</i></p>
-                                <li class="text-center">
-                                    SQL 
-                                </li>
-                                <p class="text-center"><i>Language used to create the tables and help create the queries</i></p>
-                                <li class="text-center">
-                                    Postgres
-                                </li>
-                                <p class="text-center"><i>The database system</i></p>
-                                <li class="text-center">
-                                    Splinter
-                                </li>
-                                <p class="text-center"><i>Python package used for scraping</i></p>
-                                <li class="text-center">
-                                    SQL-Alchemy
-                                </li>
-                                <p class="text-center"><i>The link between Python and SQL that allows for database querying in Python</i></p>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="card">
-                        <div class="card-header">
-                            <p class="text-center">
-                                <b><u>Screenshots:</u></b>
-                            </p>
-                        </div>
-                        <div class="card-body">
-                            <p class="text-center">
-                                <img class="img-thumbnail" src="../Assets/Images/gun.png" alt="Dashboard" style="width: 400px;height:175px;">
-                            </p>
-                            <p class="text-center">
-                                <img class="img-thumbnail" src="../Assets/Images/sqlalchemy.png" alt="Dashboard" style="width: 400px;height:175px;">
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-    </div>
-    <br>
     <hr class="hr">
 
     <footer>
-        <div class="container">
+        <div class="contact1">
             <div class="row py-4">
-                <div class="col-lg-6">
-                    <a class="navbar-brand" href="../index.html">
-                        <h2 class="h4 pb-lg-3 text-light light-300">Diandra McNeill</h2>
+                <div class="col-lg-6 text-left">
+                    <a href="../index.html">
+                        <p>
+                            <h3 class="list-unstyled text-light light-300">Diandra</h3>
+                        </p>
+                        <p>
+                            <h3 class="list-unstyled text-light light-300">McNeill</h3>
+                        </p>
                     </a>
                     <ul class="light-300">
                         <li class="list-inline-item m-0">
@@ -196,16 +195,19 @@
                         </li>
                     </ul>
                 </div>
-                <div class="col-lg-6">
-                    <a class="navbar-brand" href="../index.html">
-                        <h2 class="h4 pb-lg-3 text-light light-300">My Works</h2>
-                    </a>
+                <div class="col-lg-6 text-right">
+                    <p>
+                        <h5 class="list-unstyled text-light light-300">My Works</h5>
+                    </p>
                     <ul class="list-unstyled text-light light-300">
                         <li class="pb-2">
                             <a class="text-decoration-none text-light py-1" href="../Visualizations/Biome.html">Belly Button Biome</a>
                         </li>
                         <li class="pb-2">
                             <a class="text-decoration-none text-light py-1" href="../Visualizations/Final.html">The Strokes</a>
+                        </li>
+                        <li class="pb-2">
+                            <a class="text-decoration-none text-light py-1" href="../Visualizations/Contact.html">Contact Me!</a>
                         </li>
                     </ul>
                 </div>
